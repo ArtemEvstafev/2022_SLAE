@@ -1,0 +1,2 @@
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe qc libmy_project.a CMakeFiles/my_project.dir/my_project/Matrix/ThreeDiagonalMatrix.cpp.obj CMakeFiles/my_project.dir/my_project/SlaeBaseException.cpp.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ranlib.exe libmy_project.a
