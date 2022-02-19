@@ -23,8 +23,17 @@ namespace Slae::Matrix {
                 <<data_.size() << ". Файл: " << __FILE__ << ". Строка: " << __LINE__;
             throw SlaeBaseExceptionCpp(buff.str());
         }
-#endif NDEBUG
-
+#endif
+    return data_[i][j];
+    }
+    const double &ThreeDiagonalMatrix::operator()(int i, int j) const{
+        if (i >= data_.size()) {
+            std::stringstream buff;
+            buff << "Индекс i превышает размер матрицы! Полученный индекс: "<< i << ". Размер матрицы: "
+            <<data_.size() << ". Файл: " << __FILE__ << ". Строка: " << __LINE__;
+            throw SlaeBaseExceptionCpp(buff.str());
+        }
+        return data_[i][j];
     }
 
 
