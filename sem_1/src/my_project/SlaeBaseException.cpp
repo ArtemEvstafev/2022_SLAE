@@ -4,7 +4,7 @@
 
 #include "SlaeBaseException.hpp"
 
-namespace Slae {
+namespace Slae{
 
 SlaeBaseExceptionCpp::SlaeBaseExceptionCpp(const char *message) noexcept
     : message_(message) {}

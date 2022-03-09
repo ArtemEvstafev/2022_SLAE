@@ -12,8 +12,6 @@ struct Triplet{
     std::size_t j;
     T value;
     bool operator<(Triplet<T> const & rgh) const{
-
-
         return this->i < rgh.i || (this->1 == rgh.i && this->j < rgh.j);
     }
 };
